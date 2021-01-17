@@ -1,0 +1,191 @@
+@charset "EUC-KR";
+
+/* body {} 대체용 */
+.body__container {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* a 태그의 밑줄을 없애기 위해 작성 */
+a {
+	text-decoration: none;
+}
+
+/* 버튼 button */
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #eee linear-gradient(to bottom, #fcfcfc, #eee); /* 색상 그라데이션 효과 */
+  border: 1px solid #d5d5d5;
+  boarder-radius: 4px; /* 버튼 꼭짓점 둥글게 */
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer; /* 마우스 커서 모양 변경 */
+  box-sizing: border-box;
+  position: relative;
+  color: #333;
+}
+
+.btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.07);
+}
+
+/* 버튼 강조용 */
+.btn--primary {
+  border: 1px solid #65b836;
+  color: #fff;
+  background: #55a532 linear-gradient(#91dd70, #55ae2e);
+}
+
+/* input--text */
+.input--text {
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+  font-size: 16px;
+}
+
+.input--text:focus {
+  border-color: #51a7e8;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
+}
+
+/* float clearfix */
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.float--left {
+	float: left;
+}
+
+.float--right {
+	float: right;
+}
+
+/* HEADER */
+header {
+	border-bottom:  1px solid rgba(0,0,0,0.75);
+	box-shadow: 0 0 5px rgba(0,0,0,0.75);
+	background: #FFF;
+}
+
+header .inner {
+	max-width: 980px;
+	height: 64px;
+	margin: 0 auto; /* max-width가 정해질 경우, margin 0 auto로 가운데 정렬 가능 */
+} /* 가로 확정 및 가운데 정렬용 */
+
+header .menu-group {
+	display: flex;
+	align-items: center;
+	height: 100%;
+} /* 기본적으로 수평구조가 됨 flex면 */
+
+header .logo {
+	margin-right: 10px;
+}
+
+header .logo-img {
+	margin-left: 10px;
+	background-image: url("../img/favicon.jpg");
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+header .main-menu {
+	display: flex;
+	list-style: none;
+	padding-left: 0px;
+}
+
+header .main-menu li a {
+	display: block;
+	padding: 10px;
+}
+
+header .main-menu li a:hover {
+	color: #4078c0;
+}
+
+
+
+header .sign-group {
+	display: flex;
+	height: 100%;
+	align-items: center;	
+
+}
+
+header .btn-group {
+	order: 2;
+	display: flex;
+}
+
+header .btn-group .sing-in {
+	margin-right: 4px;
+}
+
+
+#search-form {
+	order: 1;
+	margin-right: 12px;
+}
+
+#search + [type="submit"]{
+	display: none;
+}
+
+#search {
+	width: 100px;
+	font-size: 14px;
+}
+
+header .sub-menu {
+	display: flex;
+	margin-right: 12px;
+	list-style: none;
+}
+
+header .sub-menu li  {
+	list-style: none;
+}
+
+header .sub-menu li a {
+	padding: 8px;
+	display: block;
+	font-size: 13px;
+	color: gray;
+}
+
+header .sub-menu li a:hover {
+	color: loyalblue;
+}
+
+/* footer */
+.foot {
+	padding-top: 10px;
+	border-top: 4px solid gray;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	
+}

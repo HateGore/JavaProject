@@ -1,0 +1,60 @@
+@charset "EUC-KR";
+
+body {
+	margin: 0;
+}	
+
+.nav {
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	padding: 0px 12px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	font-size: 24px;
+	color: black;	
+}
+
+.menu_left {
+	display: flex;
+	list-style: none;
+	padding-left: 0;	
+}
+
+.menu_left li { 
+
+	padding: 8px 12px;
+}
+
+.menu_left li:hover { 
+	text-decoration: underline;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 685px) {
+	.nav {
+		flex-direction: column;
+		align-items: flex-start;
+		border-bottom: 0px solid lightgray;
+	}
+	
+	.menu_left {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	
+	.menu_left li {
+		width: 100%;
+		border-bottom: 1px solid lightgray;
+		text-align: center;
+	}
+}
+
