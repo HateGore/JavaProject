@@ -49,7 +49,6 @@
 					<a href="#" class="btn sign-in">&nbsp&nbsp&nbsp&nbsp&nbsp로그인</a>&nbsp&nbsp
 					<a href="#" class="btn btn--primary sign-up">&nbsp&nbsp&nbsp회원가입</a>&nbsp&nbsp&nbsp
 				</div>
-				
 				<ul class="sub-menu">
 					<li><a href="#">내정보보기</a></li>
 					<li><a href="#">장바구니</a></li>
@@ -70,7 +69,7 @@
  	<br><br><br><br><br><br><br><br><br>
  	
 <footer class="foot">
-	<address> If you want Contact us : aorca603@aorca603.naver.com</address>
+	<p><a href="#">C&nbspO&nbspN&nbspT&nbspA&nbspC&nbspT&nbsp&nbspU&nbspS</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">이&nbsp용&nbsp약&nbsp관</a><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp문&nbsp의&nbsp사&nbsp항</a>&nbsp&nbsp&nbsp&nbsp&nbsp</p>
 	<small>Copyright &copy; 2021 KPK <br><br></small>
 	
 </footer>
