@@ -14,12 +14,15 @@ a {
 .btn {
   width: 100px;
   height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
   background: #eee linear-gradient(to bottom, #fcfcfc, #eee); /* 색상 그라데이션 효과 */
   border: 1px solid #d5d5d5;
-  boarder-radius: 4px; /* 버튼 꼭짓점 둥글게 */
+  border-radius: 2px; /* 버튼 꼭짓점 둥글게 */
   display: inline-flex;
-  align-items: center;
-  padding: 0 12px;
+  margin: 0;
+  padding: 0.5rem 1.4rem;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
@@ -41,9 +44,9 @@ a {
 
 /* 버튼 강조용 */
 .btn--primary {
-  border: 1px solid #65b836;
+  border: 1px solid #3b3b3b;
   color: #fff;
-  background: #55a532 linear-gradient(#91dd70, #55ae2e);
+  background: #2b2b2b linear-gradient(#5c5c5c, #3b3b3b);
 }
 
 /* input--text */

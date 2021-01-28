@@ -46,8 +46,8 @@
 			
 			<div class="sign-group float--right">
 				<div class="btn-group">
-					<a href="#" class="btn sign-in">&nbsp&nbsp&nbsp&nbsp&nbsp로그인</a>&nbsp&nbsp
-					<a href="#" class="btn btn--primary sign-up">&nbsp&nbsp&nbsp회원가입</a>&nbsp&nbsp&nbsp
+					<a href="#" class="btn sign-in">로그인</a>
+					<a href="#" class="btn btn--primary sign-up">회원가입</a>
 				</div>
 				<ul class="sub-menu">
 					<li><a href="#">내정보보기</a></li>
@@ -69,7 +69,7 @@
  	<br><br><br><br><br><br><br><br><br>
  	
 <footer class="foot">
-	<p><a href="#">C&nbspO&nbspN&nbspT&nbspA&nbspC&nbspT&nbsp&nbspU&nbspS</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">이&nbsp용&nbsp약&nbsp관</a><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp문&nbsp의&nbsp사&nbsp항</a>&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+	<p><a href="#">C&nbsp;O&nbsp;N&nbsp;T&nbsp;A&nbsp;C&nbsp;T&nbsp;&nbsp;U&nbsp;S</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">이&nbsp;용&nbsp;약&nbsp;관</a><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문&nbsp;의&nbsp;사&nbsp;항</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 	<small>Copyright &copy; 2021 KPK <br><br></small>
 	
 </footer>
